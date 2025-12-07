@@ -1,6 +1,6 @@
 cabal-version:       2.2
 
-name:                aoc2025
+name:                aoc2022
 version:             0.1.0.0
 build-type:          Simple
 
@@ -13,98 +13,98 @@ library
 executable day01
   main-is: RunDay01.hs
   hs-source-dirs: app
-  build-depends: base, aoc2025
+  build-depends: base, aoc2022
   default-language: Haskell2010
 
 executable day01part2
   main-is: RunDay01Part2.hs
   hs-source-dirs: app
-  build-depends: base, aoc2025
+  build-depends: base, aoc2022
   default-language: Haskell2010
 
 executable day02
   main-is: RunDay02.hs
   hs-source-dirs: app
-  build-depends: base, aoc2025
+  build-depends: base, aoc2022
   default-language: Haskell2010
 
 executable day02part2
   main-is: RunDay02Part2.hs
   hs-source-dirs: app
-  build-depends: base, aoc2025
+  build-depends: base, aoc2022
   default-language: Haskell2010
 
 executable day03
   main-is: RunDay03.hs
   hs-source-dirs: app
-  build-depends: base, aoc2025
+  build-depends: base, aoc2022
   default-language: Haskell2010
 
 executable day03part2
   main-is: RunDay03Part2.hs
   hs-source-dirs: app
-  build-depends: base, aoc2025
+  build-depends: base, aoc2022
   default-language: Haskell2010
 
 executable day04
   main-is: RunDay04.hs
   hs-source-dirs: app
-  build-depends: base, aoc2025
+  build-depends: base, aoc2022
   default-language: Haskell2010
 
 executable day04part2
   main-is: RunDay04Part2.hs
   hs-source-dirs: app
-  build-depends: base, aoc2025
+  build-depends: base, aoc2022
   default-language: Haskell2010
 
 executable day05
   main-is: RunDay05.hs
   hs-source-dirs: app
-  build-depends: base, aoc2025
+  build-depends: base, aoc2022
   default-language: Haskell2010
 
 executable day05part2
   main-is: RunDay05Part2.hs
   hs-source-dirs: app
-  build-depends: base, aoc2025
+  build-depends: base, aoc2022
   default-language: Haskell2010
 
 executable day06
   main-is: RunDay06.hs
   hs-source-dirs: app
-  build-depends: base, aoc2025
+  build-depends: base, aoc2022
   default-language: Haskell2010
 
 executable day06part2
   main-is: RunDay06Part2.hs
   hs-source-dirs: app
-  build-depends: base, aoc2025
+  build-depends: base, aoc2022
   default-language: Haskell2010
 
 executable day07
   main-is: RunDay07.hs
   hs-source-dirs: app
-  build-depends: base, aoc2025
+  build-depends: base, aoc2022
   default-language: Haskell2010
 
 executable day11
   main-is: RunDay11.hs
   hs-source-dirs: app
-  build-depends: base, aoc2025
+  build-depends: base, aoc2022
   default-language: Haskell2010
 
 executable day11part2
   main-is: RunDay11Part2.hs
   hs-source-dirs: app
-  build-depends: base, aoc2025
+  build-depends: base, aoc2022
   default-language: Haskell2010
 
 source-repository head
   type:     git
-  location: https://github.com/githubuser/aoc2025
+  location: https://github.com/githubuser/aoc2022
 
-test-suite aoc2025-test
+test-suite aoc2022-test
   type: exitcode-stdio-1.0
   hs-source-dirs: test
   main-is: Spec.hs
@@ -119,7 +119,7 @@ test-suite aoc2025-test
     Day11Spec
   build-depends:
       base >= 4.7 && < 5,
-      aoc2025,
+      aoc2022,
       hspec,
       hspec-discover
   default-language: Haskell2010

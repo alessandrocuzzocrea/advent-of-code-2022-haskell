@@ -1,3 +1,3 @@
-# advent-of-code-2025
+# advent-of-code-2022
 
-aoc 2025 solutions in Haskell
+aoc 2022 solutions in Haskell
