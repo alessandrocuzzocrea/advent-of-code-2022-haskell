@@ -1,0 +1,17 @@
+{
+	"name": "Haskell",
+	"image": "mcr.microsoft.com/devcontainers/base:debian-12",
+	"features": {
+		"ghcr.io/devcontainers/features/haskell:1": {},
+		"ghcr.io/devcontainers/features/common-utils:2": {}
+	},
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"haskell.haskell",
+				"justusadam.language-haskell"
+			]
+		}
+	},
+	"postCreateCommand": "cabal update && cabal build"
+}

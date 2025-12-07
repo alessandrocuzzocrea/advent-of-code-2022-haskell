@@ -1,0 +1,2 @@
+# encrypt all aoc input files
+inputs/* filter=git-crypt diff=git-crypt
