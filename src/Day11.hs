@@ -83,4 +83,9 @@ processItem reliefFn sourceMonkey monkeys item =
    in M.adjust (\m -> m {mItems = mItems m ++ [boredWorryLevel]}) targetId monkeys
 
 part2 :: String -> Int
-part2 _ = 0
+part2 input =
+  let monkeys = parseInput input
+      lcmDivisor = product $ map mDivisor (M.elems monkeys)
+      finalMonkeys = iterate (playRound (`mod` lcmDivisor)) monkeys !! 10000
+      inspections = reverse $ sort $ map mInspections (M.elems finalMonkeys)
+   in product (take 2 inspections)

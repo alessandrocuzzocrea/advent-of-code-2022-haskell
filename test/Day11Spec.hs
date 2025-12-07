@@ -43,4 +43,4 @@ spec = do
 
   describe "Part 2" $ do
     it "works for example" $ do
-      part2 "" `shouldBe` 0
+      part2 exampleInput `shouldBe` 2713310158
